@@ -35,11 +35,6 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <service
-            android:name=".location.LocationWorker"
-            android:permission="android.permission.BIND_JOB_SERVICE"
-            android:exported="false" />
-
         <activity
             android:name=".map.MapsActivity"
             android:exported="false"
